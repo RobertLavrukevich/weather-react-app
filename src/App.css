@@ -1,0 +1,23 @@
+.headerBlock{
+    width: 100%;
+    margin-top: 40px;
+    display:flex;
+    justify-content: center;
+}
+.headerNav{
+    display:flex;
+    font-size: 25px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    margin: 0 17px;
+}
+
+.firstBar, .secondBar, .thirdBar{
+  transition: 0.5s; 
+  text-align: center; 
+}
+.firstBar:hover, .secondBar:hover, .thirdBar:hover {
+  transform: scale(1.1);   
+}
