@@ -1,8 +1,7 @@
-export default function MapsWeather() {
+export default MapsWeather = () => {
   return (
     <div>
-      <h1>Карты погоды</h1>
-      <span>snfuwhfhwhfмokfsdfkdsmmmmmmmmmmmmmmmкмe</span>
+      <h2>Карта погоды</h2>
     </div>
   );
-}
+};
