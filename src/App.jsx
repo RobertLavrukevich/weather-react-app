@@ -2,7 +2,7 @@ import './App.css'
 import { Routes, Route, Link } from 'react-router-dom';
 import HomeWeather from './pages/HomeWeather'
 import TenDaysWeather from './pages/TenDaysWeather'
-import MapsWeather from './pages/MapsWeather'
+import WorldWeather from './pages/WorldWeather'
 
 
 function App() {
@@ -12,13 +12,13 @@ function App() {
       <nav className='headerNav'>
         <Link className='firstBar' to="/">Главная</Link>{' '}
         <Link className='secondBar' to="/10-days-weather">На 10 дней</Link>{' '}
-        <Link className='thirdBar' to="/maps-weather">Карты</Link>
+        <Link className='thirdBar' to="/world-weather">В мире</Link>
       </nav>
     </div>
       <Routes>
         <Route path="/" element={<HomeWeather />} />
         <Route path="/10-days-weather" element={<TenDaysWeather />} />
-        <Route path="/maps-weather" element={<MapsWeather />} />
+        <Route path="/world-weather" element={<WorldWeather />} />
       </Routes>
    
   </>
