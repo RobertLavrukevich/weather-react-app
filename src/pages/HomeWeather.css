@@ -1,7 +1,6 @@
 .mainBlock{
   margin-top: 20px;
-  margin-left: 13%;
-  margin-right: 13%;
+  
 }
 .perHourWeather{
     display: flex;
@@ -32,6 +31,8 @@
 .searchBlock{
     display: flex;
     justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
     
 }
 .inputCity{
@@ -123,6 +124,8 @@ button span {
 .mainInfo{
     position: relative;
     margin-top: 40px;
+    margin-left: 13%;
+    margin-right: 13%;
 }
 
 

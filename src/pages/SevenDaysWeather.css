@@ -1,0 +1,136 @@
+.forecast-container {
+  padding: 20px;
+}
+
+.status-message {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.forecast-title {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.forecast-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 20px;
+}
+
+.forecast-card {
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.forecast-date {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.weather-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.condition {
+  font-style: italic;
+  margin: 8px 0;
+}
+
+
+
+.searchBlock{
+    display: flex;
+    justify-content: center;
+    margin-left: 13%;
+    margin-right: 13%;
+    
+}
+.inputCity{
+    margin-right: 4%;
+}
+
+
+
+.group {
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+  width: 28%;
+}
+
+.inputCity {
+  font-size: 1.3rem;
+  width: 100%;
+  height: 40px;
+  padding-left: 2.5rem;
+  box-shadow: 0 0 0 1.5px #2b2c37, 0 0 25px -17px #000;
+  border: 0;
+  border-radius: 12px;
+  background-color: #151515;
+  outline: none;
+  color: #bdbecb;
+  transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
+  cursor: text;
+  z-index: 0;
+}
+
+.inputCity::placeholder {
+  color: #bdbecb;
+}
+
+.inputCity:hover {
+  box-shadow: 0 0 0 2.5px #2f303d, 0px 0px 25px -15px #000;
+}
+
+.inputCity:active {
+  transform: scale(0.95);
+}
+
+.inputCity:focus {
+  box-shadow: 0 0 0 2.5px #2f303d;
+}
+
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  fill: #bdbecb;
+  width: 1rem;
+  height: 1rem;
+  pointer-events: none;
+  z-index: 1;
+}
+
+
+
+
+button {
+ font-size: 16px;
+ position: relative;
+ padding: 11px 10px;
+ border: none;
+ background: #151515;
+ transition: all 0.1s linear;
+ cursor: pointer;
+ border:1px solid #2b2c37;
+ box-shadow: 0 0 0 1px #2b2c37, 0 0 25px -17px #000;
+ outline: none;
+}
+button:hover {
+  box-shadow: 0 0 0 2.5px #2f303d, 0px 0px 25px -15px #000;
+}
+button span {
+  color: #bdbecb;
+}
+.full-rounded {
+ border-radius: 12px;
+ font-size: 16px;
+}
