@@ -55,7 +55,7 @@ export default function WorldWeather() {
             `https://api.weather.yandex.ru/v2/forecast?lat=${city.lat}&lon=${city.lon}&lang=ru_RU&limit=1`,
             {
               headers: {
-                'X-Yandex-API-Key': import.meta.env.VITE_YANDEX_WEATHER_KEY,
+                'X-Yandex-API-Key': "d05ad0cb-361d-4e1a-8c3c-4c43f2b51c44",
               },
             }
           );

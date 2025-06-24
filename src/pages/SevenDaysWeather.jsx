@@ -1,5 +1,4 @@
 import '../pages/SevenDaysWeather.css'
-
 import '../pages/HomeWeather.css'
 import { useEffect, useState } from 'react';
 import { fetchWeatherByCoords } from '../api/weather';

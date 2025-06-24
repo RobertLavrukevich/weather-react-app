@@ -1,6 +1,6 @@
 export async function cityByCoords(lat, lon) {
   const res = await fetch(
-    `https://geocode-maps.yandex.ru/v1/?apikey=${import.meta.env.VITE_YANDEX_GEOCODER_KEY}` +
+    `https://geocode-maps.yandex.ru/v1/?apikey=${"4df2f8ef-cbfc-4ccb-8c3c-1571eabcba9b"}` +
     `&geocode=${lon},${lat}&format=json`
   );
   const json = await res.json();
@@ -15,7 +15,7 @@ export async function cityByCoords(lat, lon) {
 
 export async function geopositionCity(city) {
   const res = await fetch(
-    `https://geocode-maps.yandex.ru/v1/?apikey=${import.meta.env.VITE_YANDEX_GEOCODER_KEY}` +
+    `https://geocode-maps.yandex.ru/v1/?apikey=${"4df2f8ef-cbfc-4ccb-8c3c-1571eabcba9b"}` +
     `&geocode=${encodeURIComponent(city)}&format=json`
   );
   const json = await res.json();
